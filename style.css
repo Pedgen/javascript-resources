@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font: 100% / 2 "Roboto Mono", monospace;
+  color: #2d2d2d;
+ }
+ 
+ *, *::after, *::before {
+  box-sizing: border-box;   
+ }
+
+header {
+  height: 8rem;
+  display: flex;
+  padding: 0 2rem;
+  background-color: rgba(102,51,153,.15);
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+}
+
+a {
+  color: #2d2d2d;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+a:hover {
+  border-bottom-color: #639;
+  background-color: rgba(102,51,153,.15);
+}
+
+.card {
+  width: 90%;
+  padding: 1rem 2rem;
+  margin: 0 auto 2rem auto;
+}
+
+.hide-show {
+  display: none;
+}
